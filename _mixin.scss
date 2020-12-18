@@ -1,0 +1,14 @@
+@mixin navCircle {
+    content: "";
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 2px solid $accent;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+@mixin txtShadow {
+    text-shadow: 0 0 10px black;    
+}
