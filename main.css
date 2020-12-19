@@ -89,11 +89,10 @@ nav.navbar .navbar-nav {
   }
 }
 
-nav.navbar .navbar-nav .nav-item {
-  padding: 5px 0;
-}
-
 @media screen and (min-width: 768px) {
+  nav.navbar .navbar-nav .nav-item {
+    padding: 5px 0;
+  }
   nav.navbar .navbar-nav .nav-item a.nav-link::before {
     content: "";
     height: 10px;
